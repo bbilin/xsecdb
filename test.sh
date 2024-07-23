@@ -1,5 +1,5 @@
 # install frontend dependencies
-cd client && npm install && npm install --save history
+cd client && npm install  --force && npm install  --force --save history
 # compile frontend files
 npm run compile --force && cd ..
 
