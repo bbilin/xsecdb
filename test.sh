@@ -1,7 +1,7 @@
 # install frontend dependencies
 cd client && npm install && npm install --save history
 # compile frontend files
-npm run compile && cd ..
+npm run compile --force && cd ..
 
 # create logs directory if doesn't exist
 mkdir -p logs
